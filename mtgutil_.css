@@ -1,0 +1,38 @@
+.cardlink {
+	color: #007000;
+}
+
+.decktable {
+	border: 2px solid black;
+	word-wrap: normal;
+	word-break: normal;
+}
+
+.deckheader {
+	border-bottom: 2px solid black;
+	background-color: #ffff70;
+}
+
+*[class|=deckcolumn] {
+	vertical-align:top;
+}
+
+*[class|=deckcolumn] * {
+	text-decoration: none !important;
+	color: black !important;
+}
+
+*[class*=sideboard] {
+	background-color: #70ffff;
+	border-left:2px solid black;
+}
+
+.decksection {
+	font-size: 110%;
+	text-transform: uppercase;
+}
+
+span.deckcomment {
+	color: #ff7070 !important;
+	font-style: italic;
+}
